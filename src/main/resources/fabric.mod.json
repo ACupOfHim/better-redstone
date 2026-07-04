@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "redstone_chip",
+  "version": "${version}",
+  "name": "强化红石与芯片系统",
+  "description": "红石工程设计工具集 - 包含新型导线、芯片设计、铸造与部署系统",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/redstone_chip/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.yourname.redstonechip.RedstoneChipMod"
+    ],
+    "client": [
+      "com.yourname.redstonechip.RedstoneChipModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

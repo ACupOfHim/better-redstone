@@ -1,0 +1,2 @@
+[permissions]
+allow = ["Bash(cd \"C:/Users/11193/Desktop/better-redstone！\" && python -c \"from PIL import Image; print('Pillow available')\" 2>&1)", "Bash(python -c \"from PIL import Image; print('ok')\" 2>&1 || python3 -c \"from PIL import Image; print('ok')\" 2>&1)", "Bash(cd \"C:/Users/11193/Desktop/better-redstone！\" && git remote -v)", "Bash(cd \"C:/Users/11193/Desktop/better-redstone！\" && git init)"]
